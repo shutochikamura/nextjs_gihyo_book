@@ -1,4 +1,3 @@
-// typesは後ほど定義
 import { ApiContext, User } from '@/types'
 import { fetcher } from '@/utils'
 
