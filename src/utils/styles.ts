@@ -19,12 +19,12 @@ export type FontSize = FontSizeThemeKeys | (string & {})
 export type LetterSpacing = LetterSpacingThemeKeys | (string & {})
 export type LineHeight = LineHeightThemeKeys | (string & {})
 
-// ブレークポイント
+// ブレイクポイント
 const BREAKPOINTS: { [key: string]: string } = {
-  sm: '640px',
-  md: '768px',
-  lg: '1024px',
-  xl: '1240px',
+  sm: '640px', // 640px以上
+  md: '768px', // 768px以上
+  lg: '1024px', // 1024px以上
+  xl: '1280px', // 1280px以上
 }
 
 /**
