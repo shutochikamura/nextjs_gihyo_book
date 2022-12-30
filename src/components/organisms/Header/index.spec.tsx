@@ -6,12 +6,12 @@ import { theme } from '@/themes'
 import type { User, Product } from '@/types'
 
 // ShoppingCartContextのモック
-jest.mock('contexts/ShoppingCartContext')
+jest.mock('@/contexts/ShoppingCartContext')
 // eslint-disable-next-line import/order
 import { useShoppingCartContext } from '@/contexts/ShoppingCartContext'
 // オリジナルのShoppingCartContextProviderを取得
 const { ShoppingCartContextProvider } = jest.requireActual(
-  'contexts/ShoppingCartContext',
+  '@/contexts/ShoppingCartContext',
 )
 
 // ダミーユーザー
